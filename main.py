@@ -46,3 +46,23 @@ print(person["age"])
 #input
 name = input("Як тебе звати? ")
 print("Привіт,", name)
+
+# type data
+type(10)        # int
+type(3.14)      # float
+type("hi")      # str
+type([1,2,3])   # list
+type({"a":1})   # dict
+
+#Шаблоний рядок
+name = "Rostik"
+age = 20
+print(f"Мене звати {name}, мені {age} років.")
+
+# operators
+# ==  # дорівнює
+# !=  # не дорівнює
+# <   # менше
+# >   # більше
+# <=  # менше або дорівнює
+# >=  # більше або дорівнює
